@@ -61,6 +61,10 @@ nav a:hover {
     background-color: white;
 }
 
+.name {
+    display: none;
+}
+
 main {
     margin-top: 70px;
     display: flex;
@@ -156,6 +160,10 @@ main {
     color: green;
 }
 
+#contact > p {
+    text-align: center;
+}
+
 footer {
     background-color: green;
     width: 100%;
@@ -165,4 +173,70 @@ footer {
     justify-content: center;
     align-items: center;
     height: 60px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .name {
+        display: inline;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #about-me, #cv, #it, #projects, #interests, #contact {
+        width: 95%;
+    }
+
+    #about-me > .container {
+        flex-direction: column;
+    }
+
+    .photo, .personal-data {
+        width: 90%;
+    }
+
+    .personal-data {
+        text-align: left;
+        align-items: self-start;
+    }
+
+    .photo > img {
+        width: 100%;
+    }
+
+    #it > img {
+        width: 100%;
+    }
+
+    #it > #stack2 {
+        width: 85%;
+    }
+
+    #it > #stack3 {
+        width: 50%;
+    }
+
+    #it > #stack4 {
+        width: 70%;
+    }
+
+    #it > #stack5 {
+        width: 120%;
+    }
+
+    .project {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .project-photo {
+        width: 80%;
+    }
+
+    .description > p {
+        text-align: justify;
+    }
 }
