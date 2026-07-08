@@ -265,4 +265,12 @@ footer {
     .description > p {
         text-align: justify;
     }
+
+    .interest-photos-container {
+        flex-direction: column;
+    }
+
+    .interest-photo {
+        width: 90%;
+    }
 }
