@@ -168,6 +168,19 @@ main {
     text-align: center;
 }
 
+.interest-photos-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.interest-photo {
+    width: 30%;
+}
+
 footer {
     background-color: green;
     width: 100%;
